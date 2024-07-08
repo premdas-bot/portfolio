@@ -1,0 +1,283 @@
+/* font style */
+.open-sans-regular {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 80px 0px 130px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+nav li a {
+    text-decoration: none;
+}
+.btn-primary{
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #FD6E0A;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 3px;
+    color: white;
+}
+.nav-li{
+    font-size: 20px;
+    font-weight: 400;
+}
+.dark-2{
+    color: #474747;
+}
+.heading-font-style{
+    font-size: 45px;
+    font-weight: 800;
+}
+.span{
+    color: #FD6E0A;
+}
+
+/* nav close */
+
+
+.banner-greetings {
+    font-size: 50px;
+    font-weight: 600;
+     
+}
+.banner-title {
+    font-size: 75px;
+    font-weight: 700px;
+    line-height: 40px;
+    color: #181818;
+}
+.banner-paragraph-two {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 50px 170px 150px;
+}
+.banner-content{
+    width: 550px;
+    margin: 40px 0px 35px 0px;
+
+}
+.banner-profile-pic{
+    max-width: 496px;
+}
+.btn-secondery{
+    margin-right: 5px;
+    
+}
+.background-bg{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    height: 760px;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: #FFF8F3;
+}
+/* background close */
+
+
+.about-section{
+    width: 900px;
+    height: 400px;
+    background-color: #FFF8F3;
+    border-radius: 7px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 150px 180px;
+}
+
+.about-heading-one{
+    font-size: 25px;
+    font-weight: bold;
+}
+.about-heading{
+    font-size: 20px;
+    font-weight: 400;
+    color: #474747;
+}
+.about-heading-secondery{
+    font-size: 20px;
+    font-weight: 700;
+}
+.about-div{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.about-description{
+     padding: 100px 100px;
+}
+
+/* about section close */
+
+
+.resume{
+    width: 900px;
+    height: 400px;
+    margin: 150px 180px;
+    
+}
+
+.resume-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 22px;
+}
+.resume-one{
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.resume-two{
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+    border-radius: 7px;
+    padding: 20px;
+}
+.resume-three{
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+    border-radius: 7px;
+    padding: 20px;
+}
+.resume-four{
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+    border-radius: 7px;
+    padding: 20px;
+}
+.about-heading-one{
+    margin: 15px;
+}
+.banner-paragraph{
+    margin: 20px;
+    
+}
+.resume-title{
+    text-align: center;
+}
+.resume-paragraph{
+    font-size: 14px;
+    font-weight: 400;
+    color: #474747;
+}
+
+/* close about */
+
+
+.experience-education{
+    display: flex;
+    gap: 35px;
+}
+
+.experience-education-section{
+    width: 900px;
+    height: 400px;
+    margin: 180px 180px;
+}
+
+.about-heading-one{
+    text-align: center;
+}
+
+.education{
+    font-size: 22px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.experience-heading{
+    font-size: 18px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.experience-paragraph{
+    font-size: 14px;
+    font-weight: 500;
+    color: #757575;
+}
+
+.experience-description{
+    font-size: 12px;
+    font-weight: 400;
+    color: #757575;
+}
+.btn-third{
+    margin: 10px 552px;
+    text-align: center;
+}
+/* close experience and education */
+
+.footer-img{
+    height: 500px;
+    background-color: #FFF8F3;
+}
+
+.footer-abba{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 80px 100px;
+}
+.footer-mom{
+    display: flex;
+    gap: 30px;
+}
+.footer-son{
+    width: 400px;
+}
+.footer-son-wife{
+    width: 400px;
+}
+.footer-heading{
+    font-size: 25px;
+    font-weight: bold;
+}
+footer input[type="text"]{
+    width: 270px;
+    height: 16px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+footer input[type="email"]{
+    width: 270px;
+    height: 16px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+footer textarea{
+    width: 273px;
+    height: 50px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.btn{
+    margin-top: 5px;
+}
+.foot{
+    margin-top: 60px;
+}
